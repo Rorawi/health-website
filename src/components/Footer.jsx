@@ -17,7 +17,7 @@ const Footer = () => {
                                       s laborum aliquam atque quibusdam alias mollitia.</span>
                             </div>
                             <div className="socials">
-                              <a href="http://"> <Icon icon="akar-icons:linkedin-v1-fill" color="#e12454" height="30" /></a>
+                              <a href="https://www.linkedin.com/in/winifredasantewaaasante"> <Icon icon="akar-icons:linkedin-v1-fill" color="#e12454" height="30" /></a>
                                 <a href="http://"><Icon icon="akar-icons:twitter-fill" color="#e12454" height="30" /></a>
                                 <a href="http://"><Icon icon="ei:sc-facebook" color="#e12454" height="35" /></a>
                             </div>
@@ -66,14 +66,7 @@ const Footer = () => {
                         get in touch details
                             <Row>
                                 <Col>
-                                <h5><span>logo</span> Email</h5>
-                            <h6>healthwebsite@gmail.com</h6>
-                                </Col>
-                            </Row>
-
-                            <Row>
-                                <Col>
-                                <h5><span>logo</span> Email</h5>
+                                <h6><span>logo</span> Email</h6>
                             <h6>healthwebsite@gmail.com</h6>
                                 </Col>
                             </Row>
@@ -83,7 +76,9 @@ const Footer = () => {
                 </Row>
                 <hr />
                 <Row>
-                    <Col className='text-center'>copyright</Col>
+                    <Col className='text-center'>
+                        <h5> &copy;wI_care All rights reserved!</h5>
+                    </Col>
 
                 </Row>
             </Container>

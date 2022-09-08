@@ -4,10 +4,37 @@ import { Icon } from '@iconify/react';
 
 const Home = () => {
 
+    const startPage = ()=> {
+        const countingEl = document.querySelectorAll(".room")
+
+        countingEl.forEach(countingEl=>{
+            countingEl.innerText = "0" 
+            increaseCount()
+            function increaseCount(){
+                let currentNum = +countingEl.innerText
+                const dataCeil = countingEl.getAttribute("data-ceil");
+                const increase = dataCeil/800
+                currentNum = Math.ceil(increase + currentNum)
+               
+                
+                if(currentNum < dataCeil){
+                    countingEl.innerText = currentNum 
+                    setTimeout(increaseCount, 40)
+                }
+                else(countingEl.innerText = dataCeil)
+             
+           
+            }
+        
+        })
+        
+    }
+
+    
 
     return (
         <div>
-            <Container fluid>
+            <Container fluid onLoad={startPage}>
                 <Row>
                     <Col xs={12} className='bg'>
                         <Row>
@@ -113,27 +140,31 @@ const Home = () => {
                 </Container>
 
                 <Container>
-                    <Row>
+                    <Row class="exp-container">
 
-                        <Col>
-                            <div class="exp-container">
-                                <i class="fas fa-briefcase fa-3x icon"></i>
-                                <div class="room" data-ceil="32">0</div>
+                        <Col >
+                            <div>
+                                
+                                <div class="room" data-ceil="1000">0+</div>
+                                <h3 className='text-center'>Happy customers</h3>
                             </div>
                         </Col>
                         <Col>
-                            <div class="exp-container">
-                                <i class="fas fa-briefcase fa-3x icon"></i>
-                                <div class="room" data-ceil="3">0</div>
+                            <div>
+                                
+                                <div class="room" data-ceil="800">0+</div>
+                                <h3 className='text-center'>Good check-ups</h3>
                             </div>
                         </Col>
                         <Col>
-                            <div class="exp-container">
-                                <i class="fas fa-briefcase fa-3x icon"></i>
-                                <div class="room" data-ceil="34">0</div>
+                            <div>
+                               
+                                <div class="room" data-ceil="500">0+</div>
+                                <h3 className='text-center'>Successful surgeries</h3>
                             </div>
                         </Col>
                     </Row>
+                    {/* <button onClick={startPage}>Take the shot!</button> */}
                 </Container>
 
                 <Row>
@@ -421,19 +452,19 @@ const Home = () => {
                 </Row>
                 <Row className='partners-who-support-us logo'>
                     <Col>
-                    <img src="./images/unicef.png" alt="" className='sponsers-logo'/>
+                   <a href="http://unicef.org"> <img src="./images/unicef.png" alt="" className='sponsers-logo'/></a>
                     </Col>
                     <Col>
-                    <img src="./images/USAID.png" alt="" className='sponsers-logo'/>
+                   <a href="http://usaid.org"> <img src="./images/USAID.png" alt="" className='sponsers-logo'/></a>
                     </Col>
                     <Col>
-                    <img src="./images/m1.png" alt="" className='sponsers-logo mpharma'/>
+                   <a href="http://mpharma.org"> <img src="./images/m1.png" alt="" className='sponsers-logo mpharma'/></a>
                     </Col>
                     <Col>
-                    <img src="./images/who.png" alt="" className='sponsers-logo'/>
+                   <a href="http://who.org"> <img src="./images/who.png" alt="" className='sponsers-logo'/></a>
                     </Col>
                     <Col>
-                    <img src="./images/medshare.png" alt="" className='sponsers-logo'/>
+                   <a href="http://medshare.org"> <img src="./images/medshare.png" alt="" className='sponsers-logo'/></a>
                     </Col>
                     
                 </Row>
