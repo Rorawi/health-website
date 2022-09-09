@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
- 
+
 * {
     padding: 0;
     margin: 0;
@@ -23,7 +23,7 @@ h3 {
 }
 
 
-h5{ 
+h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -32,7 +32,7 @@ h5{
     margin: 30px 0;
 }
 
-h4{ 
+h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -44,11 +44,11 @@ h4{
 
 
 .Navbar {
- background-color: whitesmoke;
- display: flex;
- justify-content: space-evenly;
- align-items: center;
- height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
 }
 
 .Navbar .nav.brand {
@@ -59,7 +59,7 @@ h4{
     text-decoration: none;
 }
 
-.Navbar .nav { 
+.Navbar .nav {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -67,7 +67,8 @@ h4{
     text-decoration: none;
 }
 
-.Navbar .nav:hover , .Navbar .nav.brand:hover {
+.Navbar .nav:hover,
+.Navbar .nav.brand:hover {
     color: #E12454;
     transition: 0.3s;
 }
@@ -107,7 +108,7 @@ h4{
     text-decoration: none;
     margin: 10px 15px 0 0;
     padding: 15px;
-    background-color:#E12454;
+    background-color: #E12454;
     color: #fff;
     border-radius: 20px;
 }
@@ -139,12 +140,14 @@ h4{
     font-size: 60px;
 }
 
-.float p ,.float span ,.float h4  {
+.float p,
+.float span,
+.float h4 {
     display: flex;
     align-items: flex-start;
 }
 
-.float h5{
+.float h5 {
     font-size: 15px;
     font-family: cursive;
     margin: 20px;
@@ -163,7 +166,7 @@ body {
 }
 
 .services-note {
-    margin: 200px 100px ;
+    margin: 200px 100px;
 }
 
 .img {
@@ -175,7 +178,8 @@ body {
     background-color: rgba(29, 23, 95, 0.888);
 }
 
-.img img ,.img1 img{
+.img img,
+.img1 img {
     width: 100%;
     height: 47vh;
     border-radius: 10px;
@@ -208,7 +212,7 @@ body {
     margin: 262px 0 0;
 }
 
-.service a{
+.service a {
     text-decoration: none;
     padding: 12px;
     background-color: #ea0d44;
@@ -216,28 +220,28 @@ body {
     border-radius: 12px;
 }
 
-.exp-container{
+.exp-container {
     border: dashed rgb(13, 13, 13);
     padding: 20px;
- }
- 
- 
- .icon{
-     color:rgb(234, 211, 4);
- }
- 
- 
- .room{
-     font-size: 70px;
-     color: rgb(216, 18, 18);
-     display: flex;
-     justify-content: center;
-     align-items: center;
- } 
+}
 
- .what-we-do {
+
+.icon {
+    color: rgb(234, 211, 4);
+}
+
+
+.room {
+    font-size: 70px;
+    color: rgb(216, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-do {
     margin: 200px 0px 70px;
- }
+}
 
 .what-we-do span {
     color: #E12454;
@@ -245,41 +249,42 @@ body {
     font-size: 20px;
 }
 
- .hr {
+.hr {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
- .red {
+.red {
     width: 40px;
     height: 7px;
     background: #ea0d44;
- }
+}
 
- .what-we-do-row,.book-an-appointment-row {
-    margin: 40px ;
- }
+.what-we-do-row,
+.book-an-appointment-row {
+    margin: 40px;
+}
 
- .what-we-do-col {
+.what-we-do-col {
     border: 2px solid rgb(216, 18, 18);
     margin: 0px 18px;
     border-radius: 4px;
     padding: 20px;
- }
+}
 
- .what-we-do-col .row {
+.what-we-do-col .row {
     margin: 15px 0;
- }
+}
 
- .what-we-do-row h5 {
+.what-we-do-row h5 {
     margin: 5px 0;
     font-weight: 600;
     font-size: 15px;
- }
+}
 
- .book-an-appointment-container {
-    background: url(./images/helpinghand.jpg),rgba(0, 5, 54, 0.826);
+.book-an-appointment-container {
+    background: url(./images/helpinghand.jpg), rgba(0, 5, 54, 0.826);
     height: 100%;
     background-position: center;
     background-attachment: fixed;
@@ -287,32 +292,33 @@ body {
     background-size: cover;
     background-blend-mode: darken;
 
- }
+}
 
- .book-an-appointment-col {
+.book-an-appointment-col {
     margin: 0px 18px;
     padding: 20px;
- }
+}
 
- .book-an-appointment-col.form {
+.book-an-appointment-col.form {
     margin: 50px 10px;
- }
+}
 
- .book-an-appointment-col.form h2 ,.book-an-appointment-col.form h5 {
+.book-an-appointment-col.form h2,
+.book-an-appointment-col.form h5 {
     color: #fff;
- }
+}
 
- .book-an-appointment-col.form div input{
-    margin:  15px;
+.book-an-appointment-col.form div input {
+    margin: 15px;
     padding: 10px;
     width: 25%;
     border: 1px solid rgba(132, 208, 255, 0.735);
     border-radius: 10px 5px;
     background: rgba(252, 253, 253, 0.735);
- }
+}
 
- .book-an-appointment-col.form div textarea{
-    margin:  5px;
+.book-an-appointment-col.form div textarea {
+    margin: 5px;
     padding: 7px;
     width: 51%;
     height: 20vh;
@@ -320,41 +326,41 @@ body {
     border-radius: 10px 5px;
     background: rgba(252, 253, 253, 0.735);
     resize: none;
- }
+}
 
- .partners-who-support-us {
-    background:  rgba(245, 248, 254, 0.826);
+.partners-who-support-us {
+    background: rgba(245, 248, 254, 0.826);
     margin: 70px 0;
- }
+}
 
- .partners-who-support-us h2 {
+.partners-who-support-us h2 {
     margin: 70px 0 0;
- }
+}
 
- .partners-who-support-us.logo {
-    margin: 100px ;
-    padding: 20px ;
- }
+.partners-who-support-us.logo {
+    margin: 100px;
+    padding: 20px;
+}
 
- .subscribe {
+.subscribe {
     position: relative;
-    margin:  15px 0;
+    margin: 15px 0;
     padding: 10px;
     width: 100%;
     border: 1px solid rgba(132, 208, 255, 0.735);
-    border-radius: 10px 5px ;
+    border-radius: 10px 5px;
     background: rgba(252, 253, 253, 0.735);
- }
+}
 
- .subscribe:focus {
+.subscribe:focus {
     /* border: 1px solid rgba(255, 24, 24, 0.735); */
     box-shadow: 5px 5px 15px rgba(0, 5, 54, 0.322);
     outline: none !important;
- }
+}
 
 
- 
- .subscribe-col button {
+
+.subscribe-col button {
     color: #fff;
     background: rgb(216, 18, 18);
     padding: 10px 15px;
@@ -363,7 +369,8 @@ body {
     position: relative;
     bottom: 60px;
     left: 76%;
- }
+}
+
 .socials a {
     text-decoration: none;
     margin: 5px 10px;
@@ -373,17 +380,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
 
 .thinred-line {
     width: 40px;
     height: 3px;
     background: #ea0d44;
- }
+}
 
 .link-div {
     margin: 20px;
+}
+
+.footer {
+    margin-top: 100px;
 }
 
 .footer-text span {
@@ -391,19 +402,19 @@ body {
     font-size: 15px;
     color: rgb(45, 33, 176);
     font-family: 'Poppins', sans-serif;
-   }
+}
 
 .link-div a {
- text-decoration: none;
- font-size: 16px;
- color: rgb(45, 33, 176);
- font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(45, 33, 176);
+    font-family: 'Poppins', sans-serif;
 }
 
 .link-div a:hover {
     color: #E12454;
     transition: 0.3s;
-    transform: translateX(10px); 
+    transform: translateX(10px);
 }
 
 .carousel {
@@ -426,11 +437,11 @@ body {
 }
 
 .carousel-text {
-      border: 2px solid rgb(217, 221, 230);
-      margin: 0px 20px;
-      padding: 15px;
-      background-color:rgb(245, 248, 254);
-      border-radius: 10px;
+    border: 2px solid rgb(217, 221, 230);
+    margin: 0px 20px;
+    padding: 15px;
+    background-color: rgb(245, 248, 254);
+    border-radius: 10px;
 }
 
 
@@ -464,7 +475,8 @@ body {
 .sponsers-logo .mpharma {
     width: 100%;
 }
- /* .book-an-appointment-col img {
+
+/* .book-an-appointment-col img {
     width: 100%;
     height: 50vh;
  }
@@ -473,3 +485,107 @@ body {
     height: 100vh;
     width: 150%;
  } */
+
+/*SERVICES STYLES*/
+
+
+
+.services-bg {
+    background: url(./images/heart-3405559_1920.jpg), rgba(0, 5, 54, 0.537);
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 50px 0;
+}
+
+.services-bg-2 {
+    background: url(./images/rian-ramirez-rm7rZYdl3rY-unsplash.jpg), rgba(0, 5, 54, 0.244);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.services-bg h2 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.services-bg h5 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+
+
+.services-thumbnail-container {
+    margin: 132px 10px;
+}
+
+.services-thumbnail-col {
+    border: 2px solid rgb(216, 18, 18);
+    margin: 0px 18px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.services-thumbnail-col .row {
+margin: 15px 0;
+}
+
+.services-thumbnail-col h5 {
+margin: 5px 0;
+font-weight: 600;
+font-size: 15px;
+}
+
+.services-thumbnail-col img {
+    width: 100%;
+    height: 100%;
+}
+
+.services-bg-2 div {
+    margin: 20px 0px;
+}
+
+.services-bg-2 a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #E12454;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.services-bg-2 span {
+   color:  rgb(11, 0, 133); 
+}
+
+.services-bg-2 h2 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.services-bg-text {
+    margin: -10px 0;
+}
+
+.service-hr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.service-red {
+    width: 60px;
+    height: 9px;
+    background: rgb(11, 0, 133);
+}

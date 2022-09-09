@@ -8,6 +8,7 @@ import Pricing from './Pricing';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './myStyles.css'
 import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Services from './Services';
 
 const WholeWebsite = () => {
     return (
@@ -21,6 +22,7 @@ const WholeWebsite = () => {
             <Route path='/about' element={<AboutUs/>}/>
             <Route path='/department' element={<Department/>}/>
             <Route path='/pricing' element={<Pricing/>}/>
+            <Route path='/services' element={<Services/>}/>
         </Routes>
         <Footer/>
         </BrowserRouter>

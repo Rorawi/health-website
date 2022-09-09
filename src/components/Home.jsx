@@ -139,8 +139,8 @@ const Home = () => {
                     </Row>
                 </Container>
 
-                <Container>
-                    <Row class="exp-container">
+                <Container  class="exp-container">
+                    <Row>
 
                         <Col >
                             <div>
@@ -234,7 +234,7 @@ const Home = () => {
                         <Col className='what-we-do-col'>
                         <Row className='row'>
                                 <Col xs={2}><Icon icon="icon-park-twotone:brain" color="#e12454" height="40" /></Col>
-                                <Col><h3>Heart Disease</h3></Col>
+                                <Col><h3>Neurology</h3></Col>
                             </Row>
                             <Row>
                                 <Col>
@@ -246,7 +246,7 @@ const Home = () => {
                         <Col className='what-we-do-col'>
                         <Row className='row'>
                                 <Col xs={2}><Icon icon="medical-icon:i-surgery" color="#e12454" height="40" /></Col>
-                                <Col><h3>Heart Disease</h3></Col>
+                                <Col><h3>Surgeries</h3></Col>
                             </Row>
                             <Row>
                                 <Col>

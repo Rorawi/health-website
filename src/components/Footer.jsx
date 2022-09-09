@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 const Footer = () => {
     return (
         <div>
-            <Container>
+            <Container className='footer'>
                 <Row>
                     <Col xs={4}>
                         <Row>

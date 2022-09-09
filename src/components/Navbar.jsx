@@ -16,16 +16,16 @@ const Navbar = () => {
 
                     </Col>
 
-                    <Nav.Item as="li">
-                        <Link className="nav" to={"/"}>Home</Link>
-                    </Nav.Item>
+                   
 
                     <Nav.Item as="li">
                         <Link className="nav" to="/about">
                             About
                         </Link>
                     </Nav.Item>
-
+                    <Nav.Item as="li">
+                        <Link className="nav" to={"/services"}>Services</Link>
+                    </Nav.Item>
                     <Nav.Item as="li">
                         <Link className="nav" to="/department">
                             Department
