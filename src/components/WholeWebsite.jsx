@@ -4,7 +4,7 @@ import Department from './Department';
 import Footer from './Footer';
 import Home from './Home';
 import Navbar from './Navbar';
-import Pricing from './Pricing';
+import Contact from './Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './myStyles.css'
 import { BrowserRouter,Routes,Route } from "react-router-dom";
@@ -21,7 +21,7 @@ const WholeWebsite = () => {
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<AboutUs/>}/>
             <Route path='/department' element={<Department/>}/>
-            <Route path='/pricing' element={<Pricing/>}/>
+            <Route path='/contact' element={<Contact/>}/>
             <Route path='/services' element={<Services/>}/>
         </Routes>
         <Footer/>

@@ -33,7 +33,7 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/woman2.jpg" alt="woman" />
+                                <img src="./images/children.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
@@ -47,7 +47,7 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/woman2.jpg" alt="woman" />
+                                <img src="./images/children.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
@@ -64,7 +64,7 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/woman2.jpg" alt="woman" />
+                                <img src="./images/children.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
@@ -78,7 +78,7 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/woman2.jpg" alt="woman" />
+                                <img src="./images/children.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
@@ -92,7 +92,7 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/woman2.jpg" alt="woman" />
+                                <img src="./images/children.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>

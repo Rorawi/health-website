@@ -33,8 +33,8 @@ const Navbar = () => {
                     </Nav.Item>
 
                     <Nav.Item as="li">
-                        <Link className="nav" to="/pricing">
-                            Pricing
+                        <Link className="nav" to="/contact">
+                         Contact
                         </Link>
                     </Nav.Item>
 

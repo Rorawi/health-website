@@ -277,6 +277,11 @@ body {
     margin: 15px 0;
 }
 
+.what-we-do-col .row img {
+    width: 100%;
+    height: 100%;
+}
+
 .what-we-do-row h5 {
     margin: 5px 0;
     font-weight: 600;
@@ -600,4 +605,60 @@ font-size: 15px;
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
     margin: 17px;
+}
+
+
+.aboutus-col .row {
+    margin: 15px 0;
+}
+
+.aboutus-col .row img {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutus-col .row img:hover {
+   scale: 1.1;
+   transition: 0.3s;
+}
+
+.about-us-row h5 {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.aboutus-col .row h2 {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.aboutus-col .row h5 {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(63, 63, 63, 0.55);
+}
+
+.about-hr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about-red {
+    width: 40px;
+    height: 7px;
+    background: #cc0033;
+}
+
+.people-say img{
+        width: 100%;
+        height: 100%;
+}
+
+.people-say-col-text {
+    margin-top: 150px;
 }
