@@ -74,7 +74,7 @@ const Home = () => {
                             <a href="#">Make an appointment</a>
                         </Col>
                         <Col className="float">
-                            <p><Icon icon="akar-icons:clock" color="white" height="60"/></p>
+                            <p><Icon icon="akar-icons:clock" color="white" height="60" className='logo1'/></p>
                             <span>Day-to-day services</span>
                             <h4>Working hours</h4>
                             <Row className='working-hours'>
@@ -93,7 +93,7 @@ const Home = () => {
 
                         </Col>
                         <Col className="float">
-                            <p><Icon icon="healthicons:accident-and-emergency" color="white" height="60"/></p>
+                            <p><Icon icon="healthicons:accident-and-emergency" className='logo1' color="white" height="60" /></p>
                             <span>24 Hours service</span>
                             <h4>Emergency</h4>
                             <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -314,7 +314,7 @@ const Home = () => {
 
                     <Carousel variant="dark">
       <Carousel.Item>
-    <Container>
+    <Container className='carousel-container'>
         <Row className='carousel-text-row'>
             <Col className='carousel-text'>
              <Row>
@@ -356,22 +356,6 @@ const Home = () => {
       <Container>
         <Row className='carousel-text-row'>
             <Col className='carousel-text'>
-             <Row>
-                <Col xs={3}className='carousel-text-img'>
-                <div className="img-div">
-                    <img src="./images/wini.jpg" alt="womn" />
-                </div>
-                </Col>
-                <Col className='carousel-name'>
-                    <div className="name">
-                        <h4>Asante Winifred</h4>
-                    </div>
-                </Col>
-             </Row>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
-                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
-            </Col>
-            <Col className='carousel-text'>
             <Row>
                 <Col xs={3}className='carousel-text-img'>
                 <div className="img-div">
@@ -393,22 +377,7 @@ const Home = () => {
       <Carousel.Item>
       <Container>
         <Row className='carousel-text-row'>
-            <Col className='carousel-text'>
-             <Row>
-                <Col xs={3}className='carousel-text-img'>
-                <div className="img-div">
-                    <img src="./images/wini.jpg" alt="womn" />
-                </div>
-                </Col>
-                <Col className='carousel-name'>
-                    <div className="name">
-                        <h4>Asante Winifred</h4>
-                    </div>
-                </Col>
-             </Row>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
-                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
-            </Col>
+      
             <Col className='carousel-text'>
             <Row>
                 <Col xs={3}className='carousel-text-img'>

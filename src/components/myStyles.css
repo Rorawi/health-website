@@ -93,7 +93,6 @@ h4 {
     font-weight: 700;
     color: rgb(11, 0, 133);
     text-decoration: none;
-
 }
 
 .homeText span {
@@ -402,6 +401,22 @@ body {
     margin-top: 100px;
 }
 
+.footer .details h6 {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(45, 33, 176);
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+}
+
+.footer .details h5 {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(176, 33, 33);
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
 .footer-text span {
     text-decoration: none;
     font-size: 15px;
@@ -662,3 +677,121 @@ font-size: 15px;
 .people-say-col-text {
     margin-top: 150px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   
+    h2 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+    }
+    
+    
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        margin: 10px 0;
+    }
+    
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin: 12px 0;
+    }
+    
+
+.homeText {
+    margin: 20px 5px 0;
+}
+
+.homeText h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(11, 0, 133);
+    text-decoration: none;
+}
+
+.homeText span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.homeText a {
+    margin: 10px 15px 0 0;
+    padding: 10px;
+}
+
+.float a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #E12454;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.float-on-bg {
+    margin: -50px 0 0;
+}
+
+.float {
+    background-color: #F5F9FC;
+    background-color: rgba(29, 23, 95, 0.888);
+    color: #fff;
+    font-size: 12px;
+    margin: 0 4px;
+    border-radius: 20px;
+}
+
+.float .logo {
+    font-size: 40px;
+}
+
+.float .logo1 {
+    height: 40px;
+}
+
+.float p,
+.float span,
+.float h4 {
+    margin: 10px -20px;
+    font-size: 12px;
+}
+
+.float h5 {
+    font-size: 12px;
+    font-family: cursive;
+    margin: -15px;
+}
+
+.float .working-hours {
+    font-size: 14px;
+    margin: 10px -10px;
+}
+
+.what-we-do-col {
+    margin: 0px 18px 15px;
+}
+
+.book-an-appointment-col.form div input {
+    margin: 13px;
+    width: 90%;
+}
+
+.book-an-appointment-col.form div textarea {
+    width: 90%;
+}
+
+.carousel-name h5 {
+    margin: -10px -12px;
+}
+
+
+
+  }

@@ -63,11 +63,10 @@ const Footer = () => {
                             <div className="thin-hr">
                             <div className="thinred-line"></div>
                         </div>
-                        get in touch details
-                            <Row>
-                                <Col>
+                         <Row>
+                                <Col className='details'>
                                 <h6><span>logo</span> Email</h6>
-                            <h6>healthwebsite@gmail.com</h6>
+                            <h5>healthwebsite@gmail.com</h5>
                                 </Col>
                             </Row>
                             </Col>
