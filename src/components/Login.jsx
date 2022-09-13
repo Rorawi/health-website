@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Department = () => {
+const Login = () => {
     return (
         <div>
-            Department
+            login
         </div>
     );
 }
 
-export default Department;
+export default Login;
+

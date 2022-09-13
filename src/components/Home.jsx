@@ -268,25 +268,42 @@ const Home = () => {
                         {/* </Col> */}
                         {/* <Col xs={2}></Col> */}
                         <Col className='book-an-appointment-col form text-center'>
-                       <form>
+                    
                         <h2>BOOK APPOINTMENT</h2>
                         <h5>With our patience and hospitality we are known to have the best health care in these fields</h5>
-                       <div>
-                        <input type="text" placeholder='name'/>
-                        <input type="text" placeholder='name'/>
-                        </div> 
-                       <div>
-                        <input type="text" placeholder='name'/>
-                        <input type="text" placeholder='name'/>
-                        </div> 
-                       <div>
-                        <input type="text" placeholder='name'/>
-                        <input type="text" placeholder='name'/>
-                        </div> 
-                        <div>
-                            <textarea/>
-                        </div>
-                       </form>
+                        <div className='book-an-apointment-form'>
+                   <div className="two-in-one-input">
+                   <div class="input-group">
+            <input type="text" class='input'/>
+            <label class='contact-placeholder'>Name here</label>
+            </div>
+                    <div class="input-group">
+            <input type="text" class='input'/>
+            <label class='contact-placeholder'>Email address here</label>
+            </div>
+                   </div>
+                   <div className="two-in-one-input">
+                   <div class="input-group">
+            <input type="text" class='input'/>
+            <label class='contact-placeholder'>Subject here</label>
+            </div>
+                    <div class="input-group">
+            <input type="text" class='input'/>
+            <label class='contact-placeholder'>Your phone number</label>
+            </div>
+
+           
+                   </div>
+
+                   <div class="input-group textarea">
+            <textarea type="text" class='textarea-input'/>
+            <label class='contact-placeholder'>Your message here</label>
+            </div>
+                   <div className="button">
+                 <a href="winifredasante15@gmail.com"><button>Send message</button></a>
+                   </div>
+                    </div>
+                      
                         </Col>
                        
                     </Row>

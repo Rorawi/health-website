@@ -51,6 +51,10 @@ h4 {
     height: 10vh;
 }
 
+.navlink{
+    display: contents;
+}
+
 .Navbar .nav.brand {
     font-family: 'Kanit', sans-serif;
     font-size: 25px;
@@ -71,6 +75,18 @@ h4 {
 .Navbar .nav.brand:hover {
     color: #E12454;
     transition: 0.3s;
+}
+
+.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+    background-color:rgba(18, 17, 17, 0.29);
+    box-shadow: 5px -1px 12px -5px grey;
+   
 }
 
 
@@ -302,7 +318,7 @@ body {
     margin: 0px 18px;
     padding: 20px;
 }
-
+/* 
 .book-an-appointment-col.form {
     margin: 50px 10px;
 }
@@ -330,7 +346,7 @@ body {
     border-radius: 10px 5px;
     background: rgba(252, 253, 253, 0.735);
     resize: none;
-}
+} */
 
 .partners-who-support-us {
     background: rgba(245, 248, 254, 0.826);
@@ -678,11 +694,124 @@ font-size: 15px;
     margin-top: 150px;
 }
 
+.two-in-one-input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.two-in-one-input .input-group {
+    margin: 20px 10px;
+}
+
+
+.contact-details {
+    /* padding: 20px; */
+    margin: 10px;
+    border: 2px solid rgb(11, 0, 133);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 60px 50px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 18px 0px rgb(197, 195, 195);
+}
+
+.contact-form .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form .button button {
+    padding: 13px 19px;
+    background-color: rgb(11, 0, 133);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kanit',sans-serif;
+    border: 0;
+    border-radius: 20px;
+}
+
+.contact-form .button button:hover {
+   background-color: rgb(176, 33, 33);
+   transition: 0.3s;
+   scale: 1.1;
+}
+
+.input-group {
+    position: relative;
+    margin: 37px 0;
+}
+
+.input-group .textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+.input-group textarea {
+   resize: none;
+    height: 30vh;
+}
+
+.input {
+    padding: 17px 10px 5px;
+    width: 100%;
+    max-width: 597px;
+    box-sizing: border-box;
+    outline: none;
+    background: #F4F9FC;
+    border: 2px solid #c0c6ca;
+
+}
+
+.textarea-input {
+    padding: 17px 10px 5px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    background: #F4F9FC;
+    border: 2px solid #c0c6ca;
+}
+
+
+
+.contact-placeholder {
+    position: absolute;
+    top: 1px;
+    left: 8px;
+    font-size: 14px;
+    padding: 0x;
+    transition: 0.3s;
+    pointer-events: none;
+    color: #959798;
+    font-family: 'Poppins','san-serif';
+}
+
+.input:focus + .contact-placeholder,.textarea-input:focus + .contact-placeholder {
+    top: -28px;
+    color: rgb(11, 0, 133);
+    font-size: 17px;
+    background: #fff;
+}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
    
-    h2 {
+    /* h2 {
         font-family: 'Kanit', sans-serif;
         font-size: 20px;
     }
@@ -811,18 +940,18 @@ font-size: 15px;
 
 .services-note {
     margin: 100px 30px;
-}
+} */
 
-.img {
+/* .img { */
     /* border: 2px solid black; */
-    width: 100%;
+    /* width: 100%;
     height: 35vh;
     border-radius: 10px;
     margin: 20px 0;
     background-color: rgba(29, 23, 95, 0.888);
-}
+} */
 
-.img img,
+/* .img img,
 .img1 img {
     width: 100%;
     height: 35vh;
@@ -914,4 +1043,78 @@ font-size: 15px;
     margin: 5px 10px;
 }
 
+header {
+    padding: 12px 20px;  
+} 
+
+section{
+    padding: 100px 20px;
+} 
+.media-icons{
+    right: 15px;
+} */
+
+/* header .navigation {
+ display: none;
+} */
+/* 
+header .navigation.active {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(1, 1, 1, 0.719);
+}
+
+
+header .navigation .navigation-items a{
+         color: rgb(7, 7, 7);
+         font-size: 1.2em;
+         margin: 15px;
+}
+
+header .navigation .navigation-items a ::before{
+    color: #000;
+    height: 5px;
+    
+
+}
+
+
+header .navigation.active .navigation-items{
+    background: #fff;
+    width: 600px;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgb(1, 1, 1 / 20%);
+}
+
+.menu-btn{
+    background:url(images/more.png) ,no-repeat;
+    color: rgb(255, 255, 255);
+    background-size: 50px;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-btn.active{
+    z-index: 999;
+    background: url(images/close.png), no-repeat;
+    background-size: 50px;
+    background-position: center;
+    transition: 0.3s;
+    position: fixed;
+
+} */
   }

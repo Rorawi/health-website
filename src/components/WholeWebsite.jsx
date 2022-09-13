@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutUs from './AboutUs';
-import Department from './Department';
+import Login from './Login';
 import Footer from './Footer';
 import Home from './Home';
 import Navbar from './Navbar';
@@ -20,7 +20,7 @@ const WholeWebsite = () => {
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<AboutUs/>}/>
-            <Route path='/department' element={<Department/>}/>
+            <Route path='/login' element={<Login/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/services' element={<Services/>}/>
         </Routes>

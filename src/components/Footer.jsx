@@ -66,7 +66,7 @@ const Footer = () => {
                          <Row>
                                 <Col className='details'>
                                 <h6><span>logo</span> Email</h6>
-                            <h5>healthwebsite@gmail.com</h5>
+                            {/* <h5>healthwebsite@gmail.com</h5> */}
                                 </Col>
                             </Row>
                             </Col>
