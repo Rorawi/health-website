@@ -19,7 +19,7 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/children.jpg" alt="woman" />
+                                <img src="./images/bloodman.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
@@ -33,7 +33,7 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/children.jpg" alt="woman" />
+                                <img src="./images/lab-test.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
@@ -47,12 +47,12 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/children.jpg" alt="woman" />
+                                <img src="./images/mom-and-child.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                <Col className='text-center'><h3>Laboratory tests</h3></Col>
+                                <Col className='text-center'><h3>Parental Care</h3></Col>
                                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                      Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
                                 </Col>
@@ -69,7 +69,7 @@ const Services = () => {
                             </Row>
                             <Row>
                                 <Col>
-                                <Col className='text-center'><h3>Laboratory tests</h3></Col>
+                                <Col className='text-center'><h3>Child care</h3></Col>
                                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                      Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
                                 </Col>
@@ -78,12 +78,12 @@ const Services = () => {
                         <Col className='services-thumbnail-col'>
                         <Row className='row'>
                         <Col>
-                                <img src="./images/children.jpg" alt="woman" />
+                                <img src="./images/old-care.jpg" alt="woman" />
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                <Col className='text-center'><h3>Laboratory tests</h3></Col>
+                                <Col className='text-center'><h3>Personal Care</h3></Col>
                                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                      Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
                                 </Col>

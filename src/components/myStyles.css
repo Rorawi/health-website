@@ -539,7 +539,7 @@ body {
 }
 
 .services-bg-2 {
-    background: url(./images/rian-ramirez-rm7rZYdl3rY-unsplash.jpg), rgba(0, 5, 54, 0.244);
+    background: url(./images/online-marketing-hIgeoQjS_iE-unsplash.jpg), rgba(0, 5, 54, 0.244);
     height: 70vh;
     width: 100%;
     background-position: center;
@@ -568,11 +568,16 @@ body {
 }
 
 .services-thumbnail-col {
-    border: 2px solid rgb(216, 18, 18);
+    background-color: #F4F9FC;
+    box-shadow: 5px 5px 5px rgba(0, 5, 54, 0.075);
     margin: 0px 18px;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 5px;
 }
+
+.services-thumbnail-col:hover {
+    box-shadow: 5px 5px 25px rgba(153, 157, 200, 0.678);
+   }
 
 .services-thumbnail-col .row {
 margin: 15px 0;
@@ -707,12 +712,21 @@ font-size: 15px;
 .contact-details {
     /* padding: 20px; */
     margin: 10px;
+    border-radius: 8px;
     border: 2px solid rgb(11, 0, 133);
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contact-details a {
+    text-decoration: none;
+}
+
+.contact-details a:visited {
+   color: grey;
 }
 
 .contact-form {

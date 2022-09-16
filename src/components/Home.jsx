@@ -38,7 +38,7 @@ const Home = () => {
                 <Row>
                     <Col xs={12} className='bg'>
                         <Row>
-                            <Col xs={6}>
+                            <Col lg={6} sm={6}>
                                 <div className='homeText'>
                                     <h2>HEALTH WEBSITE</h2>
                                     <span>
