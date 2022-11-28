@@ -1,0 +1,140 @@
+/*LOGIN STYLE*/
+
+
+.login-div {
+    margin: 0px 18px;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #F4F9FC;
+    box-shadow: 5px 5px 5px rgb(0 5 54 / 8%);
+    text-decoration: none!important;
+    color: #1c005f;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.login-div h3 {
+    text-decoration: none!important;
+}
+
+.login-div:hover {
+    scale: 1.1;
+    transition: 0.3s
+}
+
+
+.loginStatus {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(11, 0, 133);
+    text-align: center;
+}
+
+.back-toregister{
+    text-align: center!important;
+}
+
+
+/*DOCTOR LOGIN*/
+
+.doctor-form {
+    background-color: #fff;
+    padding: 60px 50px;
+    min-width: 730px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 18px 0px rgb(197, 195, 195);
+}
+
+.doctor-form .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-form .button button {
+    padding: 13px 19px;
+    background-color: rgb(11, 0, 133);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kanit',sans-serif;
+    border: 0;
+    border-radius: 20px;
+}
+
+.doctor-form .button button:hover {
+   background-color: rgb(176, 33, 33);
+   transition: 0.3s;
+   scale: 1.1;
+}
+
+.input-group {
+    position: relative;
+    margin: 37px 0;
+}
+
+.input-group .textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+.input-group textarea {
+   resize: none;
+    height: 30vh;
+}
+
+.input {
+    padding: 17px 10px 5px;
+    width: 100%;
+    max-width: 597px;
+    box-sizing: border-box;
+    outline: none;
+    background: #F4F9FC;
+    border: 2px solid #c0c6ca;
+
+}
+
+.textarea-input {
+    padding: 17px 10px 5px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    background: #F4F9FC;
+    border: 2px solid #c0c6ca;
+}
+
+
+
+.doctor-placeholder {
+    position: absolute;
+    top: 1px;
+    left: 8px;
+    font-size: 14px;
+    padding: 0x;
+    transition: 0.3s;
+    pointer-events: none;
+    color: #959798;
+    font-family: 'Poppins','san-serif';
+}
+
+.input:focus + .doctor-placeholder,.textarea-input:focus + .doctor-placeholder {
+    top: -28px;
+    color: rgb(11, 0, 133);
+    font-size: 17px;
+    background: #fff;
+}
+
+@media (max-width: 414px){
+.doctor-form {
+    padding: 60px 30px;
+    min-width: 400px;
+}
+}

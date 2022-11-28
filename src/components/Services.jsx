@@ -25,8 +25,9 @@ const Services = () => {
                             <Row>
                                 <Col>
                                 <Col className='text-center'><h3>Blood transfusion</h3></Col>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <h5>We organise alot of day to day activites for blod donations.Also we give others willing
+                                    to donate blood the opportunites; and they are given some prizes.
+                                </h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -39,8 +40,9 @@ const Services = () => {
                             <Row>
                                 <Col>
                                 <Col className='text-center'><h3>Laboratory tests</h3></Col>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <h5>Laboratory tests are carried on when we are giving blood out and also we do series
+                                    of lab tests to help in easy diagnosis. 
+                                </h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -53,8 +55,9 @@ const Services = () => {
                             <Row>
                                 <Col>
                                 <Col className='text-center'><h3>Parental Care</h3></Col>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <h5>We organise parental care orientations for parents, especially the nursing or
+                                    lactating mothers and pregnant women; on how to cater for their wards.
+                                </h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -70,8 +73,10 @@ const Services = () => {
                             <Row>
                                 <Col>
                                 <Col className='text-center'><h3>Child care</h3></Col>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <h5>Children, being our future leaders are our first priority.
+                                    We offer child care activities for our children wards like games and so on
+                                    to make children feel at home in our institution.
+                                </h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -84,8 +89,9 @@ const Services = () => {
                             <Row>
                                 <Col>
                                 <Col className='text-center'><h3>Personal Care</h3></Col>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <h5>You can book our personal health care hospitality. Here we come to your comfort zones 
+                                    to give you the right and best treatment you need. 
+                                </h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -97,9 +103,9 @@ const Services = () => {
                             </Row>
                             <Row>
                                 <Col>
-                                <Col className='text-center'><h3>Laboratory tests</h3></Col>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <Col className='text-center'><h3>Screening</h3></Col>
+                                <h5>We offer x-ray screening,scanning the stomach,eye screening.
+                                     </h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -113,7 +119,6 @@ const Services = () => {
                     <Col xs={12} className='services-bg-2'>
                        <Row>
                         <Col xs={1}></Col>
-                        <Col xs={11}>
                       <Row>
                         <Col xs={6}>
                               
@@ -126,7 +131,7 @@ const Services = () => {
                         <a href="#">Book now</a>
                         </Col>
                       </Row>
-                        </Col>
+                       
                        </Row>
                  
                     </Col>

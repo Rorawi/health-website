@@ -14,14 +14,13 @@ const AboutUs = () => {
                 <Container>
                     <Row className='about1'>
                         <Col xs={4}>
-                            <h2>Personal health and Lorem Ispuim</h2>
+                            <h2>Personal health</h2>
                         </Col>
                         <Col xs={8}>
                             <h3>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                 Optio eius laborum vero minima soluta eos voluptatem 
-                                 exercitationem expedita hic autem. Itaque eos et autem.
-                                  Vel, dolorum! Ipsam minima dolor repellendus?
+                                We care for you health and some Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Nulla fugiat laudantium eveniet non perferendis ullam ad 
+                                corrupti molestias necessitatibus architecto, consequatur itaque deserunt
                             </h3>
                         </Col>
                     </Row>
@@ -31,72 +30,6 @@ const AboutUs = () => {
                 <br/>
 
 
-                <Container>
-                    <Row className='what-we-do-row'>
-                        <Col className='aboutus-col'>
-                            <Row className='row'>
-                              
-                            <Col>
-                                <img src="./images/children.jpg" alt="woman" />
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                <h2>HEALTHCARE FOR KIDS</h2>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
-                                </Col>
-                            </Row>
-                        </Col>
-
-                        <Col className='aboutus-col'>
-                        <Row className='row'>
-                        <Col>
-                                <img src="./images/children.jpg" alt="woman" />
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                <h2>HEALTHCARE FOR KIDS</h2>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
-                                </Col>
-                            </Row>
-                        </Col>
-
-                        <Col className='aboutus-col'>
-                        <Row className='row'>
-                        <Col>
-                                <img src="./images/children.jpg" alt="woman" />
-                                </Col>
-                               
-                            </Row>
-                            <Row>
-                                <Col>
-                                <h2>HEALTHCARE FOR KIDS</h2>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col className='aboutus-col'>
-                        <Row className='row'>
-                        <Col>
-                                <img src="./images/children.jpg" alt="woman" />
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                <h2>HEALTHCARE FOR KIDS</h2>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                  
-                   
-                </Container>
 
             <br/>
             <br/>
@@ -164,8 +97,8 @@ const AboutUs = () => {
                             <Row>
                                 <Col>
                                 <h2>Asante Winfred</h2>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <h5>Role: Surgeon</h5>
+                                <h5>Awards: Best for hospitality</h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -179,8 +112,8 @@ const AboutUs = () => {
                             <Row>
                                 <Col>
                                 <h2>Asante Winifred</h2>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                <h5>Role: Nurse</h5>
+                                <h5>Awards: None</h5>
                                 </Col>
                             </Row>
                         </Col>
@@ -195,6 +128,82 @@ const AboutUs = () => {
                             <Row>
                                 <Col>
                                 <h2>Asante Winifred</h2>
+                                <h5>Role: Dentist</h5>
+                                <h5>Awards: Best for dental care</h5>
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col className='aboutus-col'>
+                        <Row className='row'>
+                        <Col>
+                                <img src="./images/children.jpg" alt="woman" />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                <h2>Asante Winifred</h2>
+                                <h5>Role: Mid wife,Cardiologist</h5>
+                                <h5>Awards: Best in delivery and operations </h5>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                </Container>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                       </div>
+    );
+}
+
+export default AboutUs;
+
+
+{/* 
+                <Container>
+                    <Row className='what-we-do-row'>
+                        <Col className='aboutus-col'>
+                            <Row className='row'>
+                              
+                            <Col>
+                                <img src="./images/children.jpg" alt="woman" />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                <h2>HEALTHCARE FOR KIDS</h2>
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                </Col>
+                            </Row>
+                        </Col>
+
+                        <Col className='aboutus-col'>
+                        <Row className='row'>
+                        <Col>
+                                <img src="./images/children.jpg" alt="woman" />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                <h2>HEALTHCARE FOR KIDS</h2>
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
+                                </Col>
+                            </Row>
+                        </Col>
+
+                        <Col className='aboutus-col'>
+                        <Row className='row'>
+                        <Col>
+                                <img src="./images/children.jpg" alt="woman" />
+                                </Col>
+                               
+                            </Row>
+                            <Row>
+                                <Col>
+                                <h2>HEALTHCARE FOR KIDS</h2>
                                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                      Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
                                 </Col>
@@ -208,120 +217,13 @@ const AboutUs = () => {
                             </Row>
                             <Row>
                                 <Col>
-                                <h2>Asante Winifred</h2>
+                                <h2>HEALTHCARE FOR KIDS</h2>
                                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                      Hic laudantium reprehenderit velit nam sit deserunt aliquid quibusdam,</h5>
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
-                </Container>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                <Container fluid>
-                        <Row>
-                            <Col xs={6} className='people-say'>
-                                <img src="./images/helpinghand.jpg" alt="" />
-                            </Col>
-                            <Col xs={6}  className='people-say-col-text'>
-                                <h2>EXTRA GOODIES</h2>
-                                <div className="about-hr">
-                            <div className="about-red"></div>
-                        </div>
-                      
-                    <Carousel variant="dark">
-      <Carousel.Item>
-    <Container className='carousel-container'>
-        <Row className='carousel-text-row'>
-            <Col className='carousel-text'>
-             <Row>
-                <Col xs={3}className='carousel-text-img'>
-                <div className="img-div">
-                    <img src="./images/wini.jpg" alt="womn" />
-                </div>
-                </Col>
-                <Col className='carousel-name'>
-                    <div className="name">
-                        <h4>Asante Winifred</h4>
-                    </div>
-                </Col>
-             </Row>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
-                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
-            </Col>
-            <Col className='carousel-text'>
-            <Row>
-                <Col xs={3}className='carousel-text-img'>
-                <div className="img-div">
-                    <img src="./images/wini.jpg" alt="womn" />
-                </div>
-                </Col>
-                <Col className='carousel-name'>
-                    <div className="name">
-                        <h4>Asante Winifred</h4>
-                    </div>
-                </Col>
-             </Row>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
-                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
-            </Col>
-        </Row>
-    </Container>
-    
-      </Carousel.Item>
-      <Carousel.Item>
-      <Container>
-        <Row className='carousel-text-row'>
-            <Col className='carousel-text'>
-            <Row>
-                <Col xs={3}className='carousel-text-img'>
-                <div className="img-div">
-                    <img src="./images/wini.jpg" alt="womn" />
-                </div>
-                </Col>
-                <Col className='carousel-name'>
-                    <div className="name">
-                        <h4>Asante Winifred</h4>
-                    </div>
-                </Col>
-             </Row>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
-                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
-            </Col>
-        </Row>
-    </Container>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Container>
-        <Row className='carousel-text-row'>
-      
-            <Col className='carousel-text'>
-            <Row>
-                <Col xs={3}className='carousel-text-img'>
-                <div className="img-div">
-                    <img src="./images/wini.jpg" alt="womn" />
-                </div>
-                </Col>
-                <Col className='carousel-name'>
-                    <div className="name">
-                        <h4>Asante Winifred</h4>
-                    </div>
-                </Col>
-             </Row>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
-                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
-            </Col>
-        </Row>
-    </Container>
-      </Carousel.Item>
-    </Carousel>
-                            </Col>
-                        </Row>
-                </Container>
-        </div>
-    );
-}
-
-export default AboutUs;
+                  
+                   
+</Container>*/}

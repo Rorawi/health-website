@@ -1,5 +1,6 @@
 import WholeWebsite from "./components/WholeWebsite";
 import ThemeProvider from "react-bootstrap/ThemeProvider"
+// import Routing from "./Routing";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
    <>
 <ThemeProvider>
 <WholeWebsite/>
+{/* <Routing/> */}
 </ThemeProvider>
    </>
   );
