@@ -4,23 +4,23 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
-    // navigaton  menu
-    // const menuBtn = document.querySelector(".menu-btn")
-    // const navigation = document.querySelector(".navigation")
+    //navigaton  menu
+    const menuBtn = document.querySelector(".menu-btn")
+    const navigation = document.querySelector(".navigation")
 
-    // menuBtn.addEventListener("click", () => {
-    //     menuBtn.classList.toggle("active")
-    //     navigation.classList.toggle("active")
-    // })
+    menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active")
+        navigation.classList.toggle("active")
+    })
 
-    // const navbar = document.querySelector('.nav-fixed');
-    // window.onscroll = () => {
-    //     if (window.scrollY > 300) {
-    //         navbar.classList.add('nav-active');
-    //     } else {
-    //         navbar.classList.remove('nav-active');
-    //     }
-    // };
+    const navbar = document.querySelector('.nav-fixed');
+    window.onscroll = () => {
+        if (window.scrollY > 300) {
+            navbar.classList.add('nav-active');
+        } else {
+            navbar.classList.remove('nav-active');
+        }
+    };
 
     return (
         <div>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
             <Col >
                 <div class="menu-btn"></div>
-                <Nav defaultActiveKey="/home" as="ul" className='Navbar'>
+                <Nav defaultActiveKey="/home" as="ul" className='Navbar navigation nav-fixed active'>
                     <Col xs={4}>
                         <Nav.Item as="li">
                             <Link className="nav brand" to={"/"}>Brand Name</Link>

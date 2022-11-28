@@ -119,13 +119,16 @@ h4 {
     text-decoration: none;
 }
 
+.homeText-span {
+    width: 50%;
+}
+
 .homeText a {
     text-decoration: none;
-    margin: 10px 15px 0 0;
-    padding: 15px;
     background-color: #E12454;
     color: #fff;
     border-radius: 20px;
+    padding: 15px 30px;
 }
 
 .float a {
@@ -822,10 +825,10 @@ font-size: 15px;
     background: #fff;
 }
 
-@media only screen and (max-width: 768px) {
+@media  (max-width: 768px) {
     /* For mobile phones: */
    
-    /* h2 {
+    h2 {
         font-family: 'Kanit', sans-serif;
         font-size: 20px;
     }
@@ -954,18 +957,18 @@ font-size: 15px;
 
 .services-note {
     margin: 100px 30px;
-} */
+} 
 
-/* .img { */
-    /* border: 2px solid black; */
-    /* width: 100%;
+.img { 
+    border: 2px solid black;
+    width: 100%;
     height: 35vh;
     border-radius: 10px;
     margin: 20px 0;
     background-color: rgba(29, 23, 95, 0.888);
-} */
+}
 
-/* .img img,
+.img img,
 .img1 img {
     width: 100%;
     height: 35vh;
@@ -1066,12 +1069,12 @@ section{
 } 
 .media-icons{
     right: 15px;
-} */
+}
 
-/* header .navigation {
+ header .navigation {
  display: none;
-} */
-/* 
+} 
+
 header .navigation.active {
     position: fixed;
     width: 100%;
@@ -1130,5 +1133,5 @@ header .navigation.active .navigation-items{
     transition: 0.3s;
     position: fixed;
 
-} */
+}
   }

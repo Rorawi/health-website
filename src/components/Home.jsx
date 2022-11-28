@@ -30,7 +30,6 @@ const Home = () => {
         
     }
 
-    
 
     return (
         <div>
@@ -38,16 +37,18 @@ const Home = () => {
                 <Row>
                     <Col xs={12} className='bg'>
                         <Row>
-                            <Col lg={6} sm={6}>
+                            <Col>
                                 <div className='homeText'>
                                     <h2>HEALTH WEBSITE</h2>
-                                    <span>
+                                  <div className="homeText-span">
+                                  <span>
                                         What are you waiting for? come... and you are still standing there!!
                                         What are you waiting for? come... and you are still standing there!!
                                         What are you waiting for? come... and you are still standing there!!
                                         What are you waiting for? come... and you are still standing there!!
                                         What at are you waiting for? come... and you are still standing there!!
                                     </span>
+                                  </div>
                                     <br />
                                     <br />
                                     <br />

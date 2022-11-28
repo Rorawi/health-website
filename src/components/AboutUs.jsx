@@ -230,7 +230,93 @@ const AboutUs = () => {
                                 <div className="about-hr">
                             <div className="about-red"></div>
                         </div>
-                        carousel without btn arrows
+                      
+                    <Carousel variant="dark">
+      <Carousel.Item>
+    <Container className='carousel-container'>
+        <Row className='carousel-text-row'>
+            <Col className='carousel-text'>
+             <Row>
+                <Col xs={3}className='carousel-text-img'>
+                <div className="img-div">
+                    <img src="./images/wini.jpg" alt="womn" />
+                </div>
+                </Col>
+                <Col className='carousel-name'>
+                    <div className="name">
+                        <h4>Asante Winifred</h4>
+                    </div>
+                </Col>
+             </Row>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
+                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
+            </Col>
+            <Col className='carousel-text'>
+            <Row>
+                <Col xs={3}className='carousel-text-img'>
+                <div className="img-div">
+                    <img src="./images/wini.jpg" alt="womn" />
+                </div>
+                </Col>
+                <Col className='carousel-name'>
+                    <div className="name">
+                        <h4>Asante Winifred</h4>
+                    </div>
+                </Col>
+             </Row>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
+                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
+            </Col>
+        </Row>
+    </Container>
+    
+      </Carousel.Item>
+      <Carousel.Item>
+      <Container>
+        <Row className='carousel-text-row'>
+            <Col className='carousel-text'>
+            <Row>
+                <Col xs={3}className='carousel-text-img'>
+                <div className="img-div">
+                    <img src="./images/wini.jpg" alt="womn" />
+                </div>
+                </Col>
+                <Col className='carousel-name'>
+                    <div className="name">
+                        <h4>Asante Winifred</h4>
+                    </div>
+                </Col>
+             </Row>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
+                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
+            </Col>
+        </Row>
+    </Container>
+      </Carousel.Item>
+      <Carousel.Item>
+      <Container>
+        <Row className='carousel-text-row'>
+      
+            <Col className='carousel-text'>
+            <Row>
+                <Col xs={3}className='carousel-text-img'>
+                <div className="img-div">
+                    <img src="./images/wini.jpg" alt="womn" />
+                </div>
+                </Col>
+                <Col className='carousel-name'>
+                    <div className="name">
+                        <h4>Asante Winifred</h4>
+                    </div>
+                </Col>
+             </Row>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo amet recusandae cumque architecto! Atque
+                     sit possimus illum voluptatem, praesentium, cum blanditiis numquam, deleniti enim vitae repudiandae alias eum nisi!</h5>
+            </Col>
+        </Row>
+    </Container>
+      </Carousel.Item>
+    </Carousel>
                             </Col>
                         </Row>
                 </Container>

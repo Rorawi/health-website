@@ -1,10 +1,13 @@
 import WholeWebsite from "./components/WholeWebsite";
+import ThemeProvider from "react-bootstrap/ThemeProvider"
 
 
 function App() {
   return (
    <>
-  <WholeWebsite/>
+<ThemeProvider>
+<WholeWebsite/>
+</ThemeProvider>
    </>
   );
 }
