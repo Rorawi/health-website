@@ -40,6 +40,7 @@ const DoctorHome = (props) => {
     //console.log(addDiv,addUser);
     addDiv.classList.toggle("active")
     addUser.classList.toggle("active")
+
     
   }
  
@@ -48,7 +49,7 @@ const DoctorHome = (props) => {
             <Container className='welcome'>
                 <Row>
                     <Col xs={12}>
-                        <p> Welcome doctor NAME</p>
+                        <p> Welcome doctor {props.name}</p>
                     </Col>
                 </Row>
                  <div className="addDiv">
@@ -90,7 +91,7 @@ const DoctorHome = (props) => {
                                 </div>
 
                                 <div className="button">
-                                <a><button>Send message</button></a>
+                                <a><button>Add</button></a>
                             </div>
                   </form>
                  </div>
@@ -124,5 +125,22 @@ const DoctorHome = (props) => {
     );
 }
 
+
 export default DoctorHome;
 
+
+    // if(addDiv.classList.contains("active")) {
+    //   addDiv.classList.remove("active")
+    // }
+
+    // else{
+    //   addDiv.classList.add("active")}
+
+
+    // if(addUser.classList.contains("active")) {
+    //   addUser.classList.remove("active")
+    // }
+
+    // else{
+    //   addUser.classList.add("active")
+    // }

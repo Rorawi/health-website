@@ -22,7 +22,11 @@ const DoctorLogin = () => {
         console.log(
             newUser
         );
+        console.log(
+            newUser.name
+        );
         setName("");
+        setEmail("")
         setDepartment("");
         setId("");
     }
