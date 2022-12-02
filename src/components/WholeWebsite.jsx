@@ -15,6 +15,7 @@ import PatientLogin from '../pages/PatientLogin';
 import DoctorHome from './Doctor-items/DoctorHome';
 import PatientHome from './Patient-items/PatientHome';
 import ErrorPage from './ErrorPage';
+import ProtectedRoute from './ProtectedRoute';
 
 const WholeWebsite = () => {
     return (
@@ -30,7 +31,11 @@ const WholeWebsite = () => {
             <Route path='/doctorlogin' element={<DoctorLogin/>}/>
             <Route path='/patientlogin' element={<PatientLogin/>}/>
             {/* Protected Routes will be wrapped here */}
-            <Route path='/doctorhome' element={<DoctorHome/>}/>
+            <Route path='/doctorhome' element={
+                <ProtectedRoute>
+                    <DoctorHome/>
+                </ProtectedRoute>
+}/>
                {/* Protected Routes will be wrapped here */}
                <Route path='/patienthome' element={<PatientHome/>}/>
             <Route path='/contact' element={<Contact/>}/>

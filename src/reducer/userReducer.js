@@ -48,15 +48,15 @@ let initialState = {
             phonenumber:"0547735578",
             message: "Lorem Lorem Lorem Lorem Lorem Lorem",
             id:uuid()
+        },
+        {
+            name: 'ethel',
+            email:"ethelaziamle14@gmail.com",
+            subject:'CHECK-UP',
+            phonenumber:"0500000000",
+            message: "Lorem Oh Lorem",
+            id:uuid()
         }
-        // {
-        //     name: 'ethel',
-        //     email:"ethelaziamle14@gmail.com",
-        //     subject:'CHECK-UP',
-        //     phonenumber:"0500000000",
-        //     message: "Lorem Oh Lorem",
-        //     id:uuid()
-        // }
     ]
 }
 
@@ -64,7 +64,7 @@ let initialState = {
 const UserReducer = (state= initialState,action) => {
         switch (action.type) {
             case 'ADD_USER':
-                return{...state,details: [...state.details, action.payload]}
+                return{...state, details: action.payload}
             case 'DELETE_USER': 
             const filteredUser = state.details.filter(user => user.id !== action.payload)
                 return{...state, user:filteredUser}
