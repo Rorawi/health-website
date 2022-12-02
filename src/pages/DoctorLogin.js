@@ -28,6 +28,7 @@ const DoctorLogin = () => {
             const user = await signInWithEmailAndPassword(auth, email, id)
             navigate("/doctorhome", { replace: true })
             console.log(user);
+            alert("welcome")
         } catch (e) {
             console.log(e);
         }
