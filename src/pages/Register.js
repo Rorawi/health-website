@@ -1,8 +1,5 @@
 import React,{useState} from 'react';
 import { Container, Row, Col, Form, Button, Carousel } from 'react-bootstrap';
-import { createUserWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-import { auth } from '../firebase/config'
-import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
     const [name,setName] = useState("")
@@ -11,20 +8,10 @@ const Register = () => {
     const [email,setEmail] = useState("")
     const [ward,setWard] = useState("")
 
-    const navigate = useNavigate()
 
     const HandleSubmit = async(e) => {
         e.preventDefault()
-        try {
-            const user = await createUserWithEmailAndPassword(auth, email, id)
-            navigate("/login" , {replace:true})
-            console.log(user);
-        } catch (e) {
-            console.log(e);
-        }
-
-        setEmail("")
-        setId("")
+        
     }
 
     return (

@@ -12,10 +12,9 @@ import Services from './Services';
 import Register from '../pages/Register';
 import DoctorLogin from '../pages/DoctorLogin'
 import PatientLogin from '../pages/PatientLogin';
-import DoctorHome from './Doctor-items/DoctorHome';
+import DashBoard from './Doctor-items/DoctorsDashboard';
 import PatientHome from './Patient-items/PatientHome';
 import ErrorPage from './ErrorPage';
-import ProtectedRoute from './ProtectedRoute';
 
 const WholeWebsite = () => {
     return (
@@ -31,11 +30,7 @@ const WholeWebsite = () => {
             <Route path='/doctorlogin' element={<DoctorLogin/>}/>
             <Route path='/patientlogin' element={<PatientLogin/>}/>
             {/* Protected Routes will be wrapped here */}
-            <Route path='/doctorhome' element={
-                <ProtectedRoute>
-                    <DoctorHome/>
-                </ProtectedRoute>
-}/>
+            <Route path='/dashboard' element={<DashBoard/>}/>
                {/* Protected Routes will be wrapped here */}
                <Route path='/patienthome' element={<PatientHome/>}/>
             <Route path='/contact' element={<Contact/>}/>

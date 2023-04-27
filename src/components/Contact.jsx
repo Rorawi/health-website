@@ -137,13 +137,13 @@ const Contact = () => {
             <br />
             <br />
             <br />
-            <Container fluid>
+            {/* <Container fluid>
                 <Row>
                     <Col>
                         MAP HERE
                     </Col>
                 </Row>
-            </Container>
+            </Container> */}
         </div>
     );
 }

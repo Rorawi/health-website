@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { useNavigate } from 'react-router-dom';
-import { auth } from '../firebase/config'
-import { useParams } from 'react-router-dom';
 import './myPageStyles.css'
 
 
@@ -15,38 +10,15 @@ const DoctorLogin = () => {
     const [email, setEmail] = useState("")
     const [department, setDepartment] = useState("")
 
-    const navigate = useNavigate()
-
     const nameInput = document.getElementsByClassName("name-input")
     //console.log(nameInput);
 
     const HandleSubmit = async(e) => {
         e.preventDefault()
 
-        let newUser = { name: name, department: department, id: id };
-        try {
-            const user = await signInWithEmailAndPassword(auth, email, id)
-            navigate("/doctorhome", { replace: true })
-            console.log(user);
-            alert("welcome")
-        } catch (e) {
-            console.log(e);
-        }
 
-        setEmail("")
-        setName("");
-        setEmail("")
-        setDepartment("");
-        setId("");
-
-        // console.log(
-        //     newUser
-        // );
-        // console.log(
-        //     newUser.name
-        // );
     }
-    const doctor = useParams()
+    
     return (
         <div>
 

@@ -7,7 +7,7 @@ import {v4 as uuid} from "uuid"
 import { db } from '../../firebase/config';
 
 
-const DoctorHome = (props) => {
+const DashBoard = (props) => {
    const [name,setName] = useState("");
    const [phonenumber,setPhoneNumber] = useState("");
    const [email, setEmail] = useState("");
@@ -156,7 +156,7 @@ console.log('delete-btn clicked');
 }
 
 
-export default DoctorHome;
+export default DashBoard;
 
 
     // if(addDiv.classList.contains("active")) {
